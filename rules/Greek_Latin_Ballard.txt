@@ -1,0 +1,62 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2009-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Greek_Latin_Ballard.txt
+# Generated from CLDR
+
+# Based on Peter Ballard's transliteration format:
+# http://www.peterballard.org/gnt/phonetic.htm
+
+# Greek-Latin/Ballard
+
+:: [:Greek:];
+:: NFD (NFC);
+:: lower();
+
+# Completeness
+|i<j;
+|u<v;
+|k<q;
+|ph<f;
+|k<c}[^h];
+|u<y;
+|u<w;
+
+# Greek Letters
+α<>a;
+β<>b;
+γ<>g;
+δ<>d;
+ε<>e;
+ζ<>z;
+η<>E;
+θ<>th;
+ι<>i;
+κ<>k;
+λ<>l;
+μ<>m;
+ν<>n;
+ξ<>x;
+ο<>o;
+ρ<>r;
+ς<>s;
+τ<>t;
+υ<>u;
+φ<>ph;
+χ<>ch;
+ψ<>ps;
+ω<>O;
+π<>p;
+
+# Non-letter characters
+̔<>h;
+ʽ>h;
+
+[:Mn:]>;
+
+:: ([A-DF-NP-Z] lower);
+:: NFC (NFD);
+:: ([:Latin:]);

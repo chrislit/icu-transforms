@@ -1,0 +1,97 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Hebrew_Latin_UNGEGN.txt
+# Generated from CLDR
+
+# Based on UNGEGN recommendations for Hebrew from
+# http://www.eki.ee/wgrs/rom1_he.pdf
+
+# Hebrew_Latin/UNGEGN
+
+:: [[:Hebrew:] [:^ccc=0:] [ְ-ֹֻ-ּׁ-ׂℵ-ℸֿ̄] - [ֽ]] ;
+:: NFD (NFC);
+
+$letterAfter = [:M:]* [:L:];
+$letterBefore = [:L:] [:M:]*;
+
+# digraphs
+ח<>ẖ;
+כּ>k;
+ךּ>k;
+כ<>kh } $letterAfter;
+ךְ>kh;
+ך<>kh;
+כּ<k } $letterAfter;
+ךּ<k;
+צ<>ẕ } $letterAfter;
+ץ<>ẕ;
+שׁ<>sh;
+ֵי>e;
+ִי>i;
+וֹ>o;
+וּ>u;
+
+$letterBefore{א<>ʼ;
+א>;
+בּ<>b;
+ב<>v;
+גּ>g;
+ג<>g;
+דּ>d;
+ד<>d;
+ה}[:M:]*<>h;
+ה>;
+ו<>w;
+ז<>z;
+ט>t;
+י<>y;
+ל<>l;
+מ<>m } $letterAfter;
+ם<>m;
+נ<>n  } $letterAfter;
+ן<>n;
+ס>s;
+ע<>ʻ;
+פּ<>p } $letterAfter;
+פ<>f } $letterAfter;
+ףּ<>p;
+ף<>f;
+ק<>q;
+ר<>r;
+שׂ<>s;
+ש>s;
+תּ>t;
+ת<>t;
+װ>|  וו;
+ױ>| וי;
+ײ>| יי;
+([[:L:] -[h]])ּ<>$1$1̇;
+ּ>̇;
+ׁ>;
+ׂ>;
+
+# points
+ַ>a;
+ֲ>a;
+ָ<>a;
+ֶ>e;
+ֱ>e;
+ֵ<>e;
+ְ>e;
+ִ<>i;
+ֳ>o;
+ֹ<>o;
+ֻ<>u;
+ֿ<>'-';
+
+# fallbacks
+ק<c;
+ז<j;
+כס<x;
+
+:: (lower);
+:: NFC (NFD);

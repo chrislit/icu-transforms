@@ -1,0 +1,73 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Thaana_Latin_BGN.txt
+# Generated from CLDR
+
+# Based BGN/PCGN 1988 from
+# http://www.eki.ee/wgrs/rom2_dv.pdf
+# This transform definitely needs more attention
+
+# Thaana-Latin/BGN
+
+:: NFD (NFC);
+[ށއ]ް}[:^L:]>h;
+[ށއ]ް([:L:])>|$1;
+ޘ<>thʼ;
+ޛ<>dhʼ;
+ޝ<>shʼ;
+ޙ<>hʼ;
+ޚ<>kh;
+ޞ<>sʼ;
+ޟ<>lʼ;
+ޠ<>tʼ;
+ޡ<>zʼ;
+ޣ<>gh;
+ޜ<>x;
+ޢ<>ʼ;
+ޤ<>q;
+ޥ<>w;
+ތް<>iy;
+ށ<>sh;
+ޅ<>lh;
+ދ<>dh;
+ތ<>th;
+ޏ<>gn;
+ޗ<>ch;
+ހ<>h;
+ނ<>n;
+ރ<>r;
+ބ<>b;
+ކ<>k;
+އ>;
+ވ<>v;
+މ<>m;
+ފ<>f;
+ލ<>l;
+ގ<>g;
+ސ<>s;
+ޑ<>d;
+ޒ<>z;
+ޓ<>t;
+ޔ<>y;
+ޕ<>p;
+ޖ<>j;
+ާ<>aa;
+ީ<>ey;
+ޫ<>ee;
+ޭ<>oa;
+ޯ<>oo;
+|$1 އ $2<([aeiou])([aeiou]);
+ަ<>a;
+ި<>e;
+ު<>i;
+ެ<>o;
+ޮ<>u;
+ް>;
+ޱ>n;
+
+:: (lower);
+:: NFC (NFD);

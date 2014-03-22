@@ -1,0 +1,132 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2001-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Hebrew_Latin_MC.txt
+# Generated from CLDR
+
+# Based on Michigan-Claremont encoding:
+# http://ccat.sas.upenn.edu/gopher/text/religion/biblical/0-betacode.txt
+
+# Hebrew-Latin/MC
+
+:: [[:Hebrew:][\‍\ ]];
+:: NFD (); #Don't put into NFC when Hebrew is the destination
+
+$letter=[A-Z0-9\)\(\+\&\$\#\"\.\,\:\-];
+
+# Completeness mappings
+|W<V;
+|I<J;
+
+# Consonants
+א<>\);
+ב<>B;
+ג<>G;
+ד<>D;
+ה<>H;
+ו<>W;
+ז<>Z;
+ח<>X;
+ט<>\+;
+י<>Y;
+כ<K}$letter;
+כ>K;
+ך<>K;
+ל<>L;
+מ<M}$letter;
+מ>M;
+ם<>M;
+נ<N}$letter;
+נ>N;
+ן<>N;
+ס<>S;
+ע<>\(;
+פ<P}$letter;
+פ>P;
+ף<>P;
+צ<C}$letter;
+צ>C;
+ץ<>C;
+ק<>Q;
+ר<>R;
+שׂ<>\&;
+שׁ<>\$;
+ש<>\#;
+ת<>T;
+
+# Yiddish additions
+װ>WW;
+ױ>WY;
+ײ>YY;
+
+# Vowels and similar
+ֲ<>\:A;
+ֳ<>\:F;
+ֱ<>\:E;
+ַ<>A;
+ָ<>F;
+ִ<>I;
+ֶ<>E;
+ֵ<>\";
+ֹ<>O;
+ֻ<>U;
+ְ<>\:;
+־<>\-;
+ּ<>\.;
+ֿ<>\,;
+
+# Accents (mostly cantillation marks)
+׃<>00;
+֒<>01;
+֮<>02;
+֙<03;
+֩<04;
+' ׀'<>05;
+׀>05;
+
+֚<>10;
+֭<>13;
+
+֝<>11;
+֠<14;
+
+֩<>24;
+֙<>33;
+֠<>44;
+ׄ<>52;
+ׅ<>53;
+֫<>60;
+֜<>61;
+׳>' 61';
+֞<>62;
+״>' 62';
+֨<>63;
+֬<>64;
+֓<>65;
+֔<>80;
+֗<>81;
+֘<82;
+֡<>83;
+֟<>84;
+֕<>85;
+
+'‍ֽ'<>35;
+ֽ>35;
+֤<>70;
+֥<>71;
+֦<>72;
+֖<>73;
+֣<>74;
+ֽ<75;
+֛<>91;
+֑<>92;
+֪<>93;
+֧<>94;
+ֽ<95;
+
+:: ([a-z] Upper);
+:: NFC (NFD);
+:: ([a-zA-Z0-9\)\(\+\&\$\#\"\.\,\: \-]);

@@ -1,0 +1,70 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2009-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: OldItalic_Latin.txt
+# Generated from CLDR
+
+# OldItalic-Latin
+
+:: [:Old_Italic:];
+:: (NFC);
+
+# Completeness mappings from Latin
+|i<j;
+|v<w;
+|u<y;
+
+# Old Italic digraph
+#𐌅𐌇>f; # although this sequence may be interpreted as /f/, we should rather target a more general and 1:1 mapping
+
+# Latin digraphs
+𐌈<>th;
+𐌘<>ph;
+𐌙<>ch;
+
+# Latin with diacritics
+𐌎<>š;
+𐌑<>ś;
+𐌗<ṡ;
+𐌛<>ř;
+𐌜<>ç;
+𐌝<>í;
+𐌞<>ú;
+
+# Plain letters
+𐌀<>a;
+𐌁<>b;
+𐌂<>c;
+𐌂<g;
+𐌃<>d;
+𐌄<>e;
+𐌅<>v;
+𐌆<>z;
+𐌇<>h;
+𐌉<>i;
+𐌊<>k;
+𐌋<>l;
+𐌌<>m;
+𐌍<>n;
+𐌏<>o;
+𐌐<>p;
+𐌒<>q;
+𐌓<>r;
+𐌔<>s;
+𐌕<>t;
+𐌖<>u;
+𐌗<>x;
+𐌚<>f;
+
+# Numerals (translate to Roman numerals since the numbering system is similar)
+𐌢>X;
+𐌣>L;
+𐌠>I;
+𐌡>V;
+
+:: ([:Latin:] lower);
+:: (NFD);
+:: ([[:Latin:][̧̌́̇]]);

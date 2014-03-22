@@ -1,0 +1,132 @@
+﻿#--------------------------------------------------------------------
+# Copyright 2001-2009
+# All rights reserved.  Usage permitted according to the MIT/X11
+# License: http://www.opensource.org/licenses/mit-license.php
+#--------------------------------------------------------------------
+# Based on BGN/PCGN 1981 from
+# http://www.eki.ee/wgrs/rom2_ka.pdf
+#--------------------------------------------------------------------
+
+# Georgian-Latin/BGNPCGN
+
+:: NFD (NFC); 
+
+#titlecase digraphs
+\u10B9}[:LowercaseLetter:]>Ch\u02BC;     # Ⴙ
+\u10BA}[:LowercaseLetter:]>Ts\u02BC;     # Ⴚ
+
+\u10AF}[:LowercaseLetter:]>Zh;     # Ⴏ
+\u10B6}[:LowercaseLetter:]>Gh;     # Ⴖ
+\u10B8}[:LowercaseLetter:]>Sh;     # Ⴘ
+\u10BB}[:LowercaseLetter:]>Dz;     # Ⴛ
+\u10BC}[:LowercaseLetter:]>Ts;     # Ⴜ
+\u10BD}[:LowercaseLetter:]>Ch;     # Ⴝ
+\u10BE}[:LowercaseLetter:]>Kh;     # Ⴞ
+
+#non-BGN/PCGN
+\u10C1}[:Ll:]>Ey;     # Ⴡ
+\u10C5}[:Ll:]>Ow;     # Ⴥ
+
+#uppercase digraphs
+\u10B9>CH\u02BC;     # Ⴙ
+\u10BA>TS\u02BC;     # Ⴚ
+
+\u10A7>T\u02BC;     # Ⴇ
+\u10AF>ZH;     # Ⴏ
+\u10B4>P\u02BC;     # Ⴔ
+\u10B5>K\u02BC;     # Ⴕ
+\u10B6>GH;     # Ⴖ
+\u10B8>SH;     # Ⴘ
+\u10BB>DZ;     # Ⴛ
+\u10BC>TS;     # Ⴜ
+\u10BD>CH;     # Ⴝ
+\u10BE>KH;     # Ⴞ
+
+#non-BGN/PCGN
+\u10C1>EY;     # Ⴡ
+\u10C4>Q\u02BC;     # Ⴤ
+\u10C5>OW;     # Ⴥ
+
+\u10A0>A;     # Ⴀ
+\u10A1>B;     # Ⴁ
+\u10A2>G;     # Ⴂ
+\u10A3>D;     # Ⴃ
+\u10A4>E;     # Ⴄ
+\u10A5>V;     # Ⴅ
+\u10A6>Z;     # Ⴆ
+\u10A8>I;     # Ⴈ
+\u10A9>K;     # Ⴉ
+\u10AA>L;     # Ⴊ
+\u10AB>M;     # Ⴋ
+\u10AC>N;     # Ⴌ
+\u10AD>O;     # Ⴍ
+\u10AE>P;     # Ⴎ
+\u10B0>R;     # Ⴐ
+\u10B1>S;     # Ⴑ
+\u10B2>T;     # Ⴒ
+\u10B3>U;     # Ⴓ
+\u10B7>Q;     # Ⴗ
+\u10BF>J;     # Ⴟ
+\u10C0>H;     # Ⴠ
+\u10C2>Y;     # Ⴢ
+\u10C3>W;     # Ⴣ
+
+#lowercase digraphs
+\u10E9<>ch\u02BC;     # ჩ
+\u10EA<>ts\u02BC;     # ც
+
+\u10D7<>t\u02BC;     # თ
+\u10DF<>zh;     # ჟ
+\u10E4<>p\u02BC;     # ფ
+\u10E5<>k\u02BC;     # ქ
+\u10E6<>gh;     # ღ
+\u10E8<>sh;     # შ
+\u10EB<>dz;     # ძ
+\u10EC<>ts;     # წ
+\u10ED<>ch;     # ჭ
+\u10EE<>kh;     # ხ
+
+#non-BGN/PCGN
+\u10F1<>ey;     # ჱ
+\u10F4<>q\u02BC;     # ჴ
+\u10F5<>ow;     # ჵ
+
+\u10D0<>a;     # ა
+\u10D1<>b;     # ბ
+\u10D2<>g;     # გ
+\u10D3<>d;     # დ
+\u10D4<>e;     # ე
+\u10D5<>v;     # ვ
+\u10D6<>z;     # ზ
+\u10D8<>i;     # ი
+\u10D9<>k;     # კ
+\u10DA<>l;     # ლ
+\u10DB<>m;     # მ
+\u10DC<>n;     # ნ
+\u10DD<>o;     # ო
+\u10DE<>p;     # პ
+\u10E0<>r;     # რ
+\u10E1<>s;     # ს
+\u10E2<>t;     # ტ
+\u10E3<>u;     # უ
+\u10E7<>q;     # ყ
+\u10EF<>j;     # ჯ
+\u10F0<>h;     # ჰ
+
+#non-BGN/PCGN
+\u10F2<>y;     # ჲ
+\u10F3<>w;     # ჳ
+\u10F6<>f;     # ჶ
+\u01F7>e;
+\u01F8>\u02BC;
+
+#paragraph
+\u10FB<>\u00B6;     # ¶ ჻
+
+#completeness mappings for latin
+\u10D9<c;     # კ
+\u10EE;<x     # ხ  
+
+:: ([:LATIN:] lower);
+
+:: NFC (NFD);

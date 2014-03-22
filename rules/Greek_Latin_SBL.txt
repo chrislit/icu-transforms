@@ -1,0 +1,121 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Greek_Latin_SBL.txt
+# Generated from CLDR
+
+# Based on SBL Greek transliteration from
+# The SBL Handbook of Style p. 29
+
+# Greek-Latin/SBL
+
+:: [[:Greek:][̔ͅͺʽ·̓ʼ́´ˊ΄͂̂\^ˆ̀\`ˋ̈¨]];
+:: NFD (NFC);
+
+# Completeness mappings from Latin
+|K<C}[^Hh];
+|k<c}[^h];
+|PH<F;
+|ph<f;
+|I<J;
+|i<j;
+|K<Q;
+|k<q;
+|U<[VW];
+|U<[vw];
+
+# rough breathing
+|$1̔<H([:Lu:][:M:]*);
+|&Any-Upper($1)̔<H([:Ll:][:M:]*);
+|$1̔<h([:L:][:M:]*);
+([:Lu:][[:M:]-[̔]]*)̔}[:Lu:]>H|$1;
+([:Lu:][[:M:]-[̔]]*)̔>H|&Any-Lower($1);
+([:L:][[:M:]-[̔]]*)̔>h|$1;
+
+# Non-letter characters are omitted from SBL's transliteration
+[ͅͺʽ·̓ʼ́´ˊ΄͂̂\^ˆ̀\`ˋ̈¨]>;
+
+# diphthongs
+ΗΥ<>ĒU;
+Ηυ<>Ēu;
+ηυ<>ēu;
+ΩΥ<>ŌU;
+Ωυ<>Ōu;
+ωυ<>ōu;
+ΑΥ<>AU;
+Αυ<>Au;
+αυ<>au;
+ΕΥ<>EU;
+Ευ<>Eu;
+ευ<>eu;
+ΥΙ<>UI;
+Υι<>Ui;
+υι<>ui;
+
+# digraphs
+Η<>Ē;
+η<>ē;
+Θ}[:Ll:]<>Th;
+Θ<>TH;
+θ<>th;
+Ῥ}[:Ll:]<>Rh;
+Ῥ<>RH;
+ῥ<>rh;
+Φ}[:Ll:]<>Ph;
+Φ<>PH;
+φ<>ph;
+Χ}[:Ll:]<>Ch;
+Χ<>CH;
+χ<>ch;
+Ψ}[:Ll:]<>Ps;
+Ψ<>PS;
+ψ<>ps;
+Ω<>Ō;
+ω<>ō;
+
+# unigraphs
+Α<>A;
+α<>a;
+Β<>B;
+β<>b;
+Γ}[ΓΚΞΧγκξχ]<>N}[gGkKxXcC];
+γ}[ΓΚΞΧγκξχ]<>n}[gGkKxXcC];
+Γ<>G;
+γ<>g;
+Δ<>D;
+δ<>d;
+Ε<>E;
+ε<>e;
+Ζ<>Z;
+ζ<>z;
+Ι<>I;
+ι<>i;
+Κ<>K;
+κ<>k;
+Λ<>L;
+λ<>l;
+Μ<>M;
+μ<>m;
+Ν<>N;
+ν<>n;
+Ξ<>X;
+ξ<>x;
+Ο<>O;
+ο<>o;
+Π<>P;
+π<>p;
+Ρ<>R;
+ρ<>r;
+Σ<>S;
+ς<>s}[:^L:];
+σ<>s;
+Τ<>T;
+τ<>t;
+Υ<>Y;
+υ<>y;
+
+:: NFC (NFD);
+:: ([[:Latin:][̄]]);

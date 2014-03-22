@@ -1,0 +1,68 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Hebrew_Latin_Beta.txt
+# Generated from CLDR
+
+# Based on Beta Code Manual:
+# http://www.tlg.uci.edu/encoding/BCM2013.pdf
+
+# Hebrew-Latin/Beta
+
+:: [:Hebrew:];
+:: NFD (); #Don't put into NFC when Hebrew is the destination
+
+# Completeness mappings 
+|k1<c;
+|p1<f;
+|y<j;
+|v<w;
+|h<x;
+
+# Consonants
+א<>A;
+ע<>a;
+ב<>b;
+ד<>d;
+ג<>g;
+ה<>h;
+ח<>H;
+כ<>k1;
+ך<>k2;
+כ<k; #completeness
+ל<>l;
+מ<>m1;
+ם<>m2;
+מ<m; #completeness
+נ<>n1;
+ן<>n2;
+נ<n;
+פ<>p1;
+ף<>p2;
+פ<p; #completeness
+ט<>Q;
+ק<>q;
+ר<>r;
+ס<>S;
+שׂ>s;
+שׁ>s;
+ש<>s;
+ת<>t;
+צ<>T1;
+ץ<>T2;
+צ<T;
+ו<>v;
+י<>y;
+ז<>z;
+
+# Yiddish additions
+װ>vv;
+ױ>vy;
+ײ>yy;
+
+:: ([BCDEFGIJKLMNOPRSUVWXYZ] Lower);
+:: NFC (NFD);
+:: ([a-zA-Z12]);

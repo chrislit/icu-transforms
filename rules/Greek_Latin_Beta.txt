@@ -1,0 +1,155 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2001-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Greek_Latin_Beta.txt
+# Generated from CLDR
+
+# Based on Beta code for CCAT/CATSS/TLG:
+# http://ccat.sas.upenn.edu/gopher/text/religion/biblical/0-betacode.txt
+# and:
+# http://www.tlg.uci.edu/encoding/BCM2013.pdf
+
+# Greek-Latin/Beta
+
+:: [[:Greek:][̓ʼ᾽᾿̔ʽ῞´ˊ΄´͂̂\^ˆ῀̀\`ˋ`̈¨ͅιͺ̣··;’‐—]];
+:: NFD (NFC);
+
+$betaMarks = [\|\(\)\:\/\=\\\+\_];
+
+# Letters
+#  Uppercase
+Α<>\*A;
+Β<>\*B;
+Γ<>\*G;
+Δ<>\*D;
+Ε<>\*E;
+Ζ<>\*Z;
+Η<>\*H;
+Θ<>\*Q;
+Ι<>\*I;
+Κ<>\*K;
+Λ<>\*L;
+Μ<>\*M;
+Ν<>\*N;
+Ξ<>\*C;
+Ο<>\*O;
+Φ<>\*F;
+Ψ<>\*Y;
+Π<>\*P;
+Ρ<>\*R;
+Ϲ<>\*S3;
+Σ<\*S1;
+Σ<\*S2;
+Σ<\*J;
+Σ<>\*S;
+Τ<>\*T;
+Υ<>\*U;
+Χ<>\*X;
+Ω<>\*W;
+
+#  Uppercase Archaic
+Ϝ<>\*V;
+Ϟ<>\*\#3;
+Ϡ<>\*\#5;
+
+#  Lowercase
+α<>A;
+β<>B;
+γ<>G;
+δ<>D;
+ε<>E;
+ζ<>Z;
+η<>H;
+θ<>Q;
+ι<>I;
+κ<>K;
+λ<>L;
+μ<>M;
+ν<>N;
+ξ<>C;
+ο<>O;
+φ<>F;
+ψ<>Y;
+π<>P;
+ρ<>R;
+ϲ<S3;
+ς<S2;
+ς<J;
+ς>S;
+σ<S1;
+ς<S}[^[:L:][:M:]];
+σ<>S;
+τ<>T;
+υ<>U;
+χ<>X;
+ω<>W;
+
+#  Lowercase Archaic
+ϝ<>V;
+ϟ<>\#3;
+ϡ<>\#5;
+
+# Non-letter characters
+#  smooth breathing
+̓<>\);
+ʼ>\);
+᾽>\);
+᾿>\);
+#  rough breathing
+̔<>\(;
+ʽ>\(;
+῾>\(;
+#  accent acute
+́<>\/;
+´>\/;
+ˊ>\/;
+΄>\/;
+´>\/;
+#  circumflex
+͂<>\=;
+̂>\=;
+\^>\=;
+ˆ>\=;
+῀>\=;
+#  accent grave
+̀<>\\;
+\`>\\;
+ˋ>\\;
+`>\\;
+#  diaeresis
+̈<>\+;
+¨>\+;
+#  iota subscript
+ͅ<>\|;
+ι>\|;
+ͺ>\|;
+#  dot below
+̣<>\?;
+
+#  ignore period & comma
+
+#  middle dot
+·<>\:;
+·>\:;
+#  semicolon (question mark) -- use a semicolon in both scripts
+;>\;;
+#  apostrophe
+’<>\';
+#  hyphen
+‐<>\-;
+—<>\_;
+
+# ̄<>\_;	# Perseus LSJ uses _ for long vowels
+
+::Null;
+
+# Move accents preceding capitals/words after the letter
+\*$2$1<\*($betaMarks+)([A-Z]);
+$2$1<[^[[A-Z123]$betaMarks]]{($betaMarks+)([A-Z]);
+
+:: ([a-z] upper);
+:: NFC (NFD);
+:: ([\*A-Za-z\#1235\)\(\/\=\\\+\|\?\:\;\'\-\_]);

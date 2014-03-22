@@ -1,0 +1,64 @@
+# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Ugaritic_Latin_SBL.txt
+# Generated from CLDR
+
+# Based on SBL Ugaritic transliteration from
+# the SBL Handbook of Style p.31, itself based on
+# Gordon, Cyrus H. 1998. Ugaritic Textbook. pp 13-15:
+# http://books.google.com/books?id=ShcFfQZrEzAC
+
+# Ugaritic-Latin/SBL
+
+:: [:Ugaritic:];
+:: (NFC);
+# completeness mappings (not based on standard)
+|k<c;
+|i<e;
+|w<f;
+|i<j;
+|a<o;
+|w<v;
+|k<x;
+
+# letters with diacritics
+𐎏<>ḏ;
+𐎈<>ḥ;
+𐎃<>ḫ;
+𐎉<>ṭ;
+𐎑<>ẓ;
+𐎝<>s̀;
+𐎙<>ǵ;
+𐎕<>ṣ;
+𐎌<>š;
+𐎘<>ṯ;
+# plain letters
+𐎀<>a;
+𐎛<>i;
+𐎜<>u;
+𐎁<>b;
+𐎂<>g;
+𐎄<>d;
+𐎅<>h;
+𐎆<>w;
+𐎇<>z;
+𐎊<>y;
+𐎋<>k;
+𐎍<>l;
+𐎎<>m;
+𐎐<>n;
+𐎒<>s;
+𐎓<>ʿ;
+𐎔<>p;
+𐎖<>q;
+𐎗<>r;
+𐎚<>t;
+𐎟<>\.;
+
+:: (lower);
+:: (NFD);
+:: ([[:Latin:][\.̮̣̱̌́̀]]);

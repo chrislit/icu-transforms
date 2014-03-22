@@ -1,0 +1,57 @@
+﻿#---------------------------------------------------------------------
+# Copyright 2001-2009
+# All rights reserved.  Usage permitted according to the MIT/X1
+# License: http://www.opensource.org/licenses/mit-license.php
+#---------------------------------------------------------------------
+# Based on transliteration presented in The World's Writing Systems
+# edited by Peter Daniels & William Bright, p. 288
+#--------------------------------------------------------------------
+
+# Coptic-IPA
+
+:: NFD (NFC);
+:: upper ();    
+
+\u0397<>eː;     # Η
+\u0398<>th;     # Θ
+\u039E<>ks;     # Ξ
+\u03A6<>ph;     # Φ
+\u03A7<>kh;     # Χ
+\u03A8<>ps;     # Ψ
+\u03A9<>oː;     # Ω
+\u03EA<>dʒ;     # Ϫ
+\u03EE<>ti;     # Ϯ
+
+\u0391<>a;     # Α
+\u0392<>v;     # Β
+\u0393<>k;     # Γ
+\u0394<>t;     # Δ
+\u0395<>e;     # Ε
+\u0396<>s;     # Ζ
+\u0399<>i;     # Ι
+\u039A<>k;     # Κ
+\u039B<>l;     # Λ
+\u039C<>m;     # Μ
+\u039D<>n;     # Ν
+\u039F<>o;     # Ο
+\u03A0<>p;     # Π
+\u03A1<>r;     # Ρ
+\u03A3<>s;     # Σ
+\u03A4<>t;     # Τ
+\u03A5<>u;     # Υ
+
+\u03DC>;     # Ϝ
+\u03DE>;     # Ϟ
+\u03E0>;     # Ϡ
+
+\u03E2<>ʃ;     # Ϣ
+\u03E4<>f;     # Ϥ
+\u03E6>;     # Ϧ
+\u03E8<>h;     # Ϩ
+\u03EC<>q;     # Ϭ
+
+\u0305<>\u0304;     #
+
+<ː;
+
+:: NFC (NFD);

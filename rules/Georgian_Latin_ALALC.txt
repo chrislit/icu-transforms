@@ -1,0 +1,106 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Georgian_Latin_ALALC.txt
+# Generated from CLDR
+
+# Based on ALA-LC Romanization from
+# http://lcweb.loc.gov/catdir/cpso/romanization/georgian.pdf
+
+# Georgian-Latin/ALALC
+
+:: NFD (NFC);
+
+# uppercase digraphs
+Ⴙ>Čʻ;
+Ⴚ>Cʻ;
+Ⴇ>Tʻ;
+Ⴏ>Z̆;
+Ⴔ>Pʻ;
+Ⴕ>Kʻ;
+Ⴖ>Ġ;
+Ⴘ>Š;
+Ⴛ>Z ̇;
+Ⴝ>Č;
+Ⴡ>Ē;
+Ⴤ>X ̣;
+Ⴥ>Ō;
+Ⴀ>A;
+Ⴁ>B;
+Ⴂ>G;
+Ⴃ>D;
+Ⴄ>E;
+Ⴅ>V;
+Ⴆ>Z;
+Ⴈ>I;
+Ⴉ>K;
+Ⴊ>L;
+Ⴋ>M;
+Ⴌ>N;
+Ⴍ>O;
+Ⴎ>P;
+Ⴐ>R;
+Ⴑ>S;
+Ⴒ>T;
+Ⴓ>U;
+Ⴗ>Q;
+Ⴜ>C;
+Ⴞ>X;
+Ⴟ>J;
+Ⴠ>H;
+Ⴢ>Y;
+Ⴣ>W;
+
+#l owercase digraphs
+ჩ<>čʻ;
+ც<>cʻ;
+თ<>tʻ;
+ჟ<>z̆;
+ფ<>pʻ;
+ქ<>kʻ;
+ღ<>ġ;
+შ<>š;
+ძ<>z ̇;
+ჭ<>č;
+ჱ<>ē;
+ჴ<>x ̣;
+ჵ<>ō;
+Ƿ<>e ̆;
+ა<>a;
+ბ<>b;
+გ<>g;
+დ<>d;
+ე<>e;
+ვ<>v;
+ზ<>z;
+ი<>i;
+კ<>k;
+ლ<>l;
+მ<>m;
+ნ<>n;
+ო<>o;
+პ<>p;
+რ<>r;
+ს<>s;
+ტ<>t;
+უ<>u;
+ყ<>q;
+წ<>c;
+ხ<>x;
+ჯ<>j;
+ჰ<>h;
+ჳ<>w;
+ჶ<>f;
+Ǹ<>ʻ;
+
+# non-ALA/LC
+ჲ<>y;
+
+# paragraph
+჻<>¶;
+
+:: ([:LATIN:] lower);
+:: NFC (NFD);

@@ -1,0 +1,67 @@
+﻿#--------------------------------------------------------------------
+# Copyright 2001-2009
+# All rights reserved.  Usage permitted according to the MIT/X11
+# License: http://www.opensource.org/licenses/mit-license.php
+#--------------------------------------------------------------------
+# Based on IPA transcription from
+# http://ee.www.ee/transliteration/pdf/Georgian.pdf
+#--------------------------------------------------------------------
+
+# Georgian-IPA
+
+:: NFD (NFC); 
+
+:: lower;
+
+$asp = \u02B0;
+
+\u10EC<>ts\u02BC;     # წ
+\u10ED<>tʃ\u02BC;     # ჭ
+
+\u10D7<>t$asp;     # თ
+\u10D9<>k\u02BC;     # კ
+\u10DE<>p\u02BC;     # პ
+\u10E2<>t\u02BC;     # ტ
+\u10E4<>p$asp;     # ფ
+\u10E5<>k$asp;     # ქ
+\u10E7<>q\u02BC;     # ყ
+\u10E9<>tʃ;     # ჩ
+\u10EA<>ts;     # ც
+\u10EB<>dz;     # ძ
+\u10EF<>dʒ;     # ჯ
+\u10F3<>wi;     # ჳ
+\u10F5<>ow;     # ჵ
+
+\u10D0<>ɑ;     # ა
+\u10D1<>b;     # ბ
+\u10D2<>g;     # გ
+\u10D3<>d;     # დ
+\u10D4<>ɛ;     # ე
+\u10D5<>v;     # ვ
+\u10D6<>z;     # ზ
+\u10D8<>i;     # ი
+\u10DA<>l;     # ლ
+\u10DB<>m;     # მ
+\u10DC<>n;     # ნ
+\u10DD<>o;     # ო
+\u10DF<>ʒ;     # ჟ
+\u10E0<>r;     # რ
+\u10E1<>s;     # ს
+\u10E3<>u;     # უ
+\u10E6<>ɣ;     # ღ
+\u10E8<>ʃ;     # შ
+\u10EE<>x;     # ხ
+\u10F0<>h;     # ჰ
+\u10F1<>e;     # ჱ
+\u10F2<>j;     # ჲ
+\u10F4<>q;     # ჴ
+\u10F6<>f;     # ჶ
+\u01F7<>ɨ;
+\u01F8<>ʕ;
+
+#paragraph
+\u10FB<>\u00B6;     # ¶ ჻
+
+:: (lower);
+
+:: NFC (NFD);

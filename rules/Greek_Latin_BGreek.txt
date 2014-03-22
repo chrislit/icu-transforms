@@ -1,0 +1,63 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2001-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Greek_Latin_BGreek.txt
+# Generated from CLDR
+
+# Based on the B-Greek transliteration format:
+# http://www.ibiblio.org/bgreek/transliteration.txt
+
+# Greek-Latin/BGreek
+
+:: [:Greek:];
+:: NFD (NFC);
+:: upper();
+
+# Completeness mappings
+|I<J;
+|U<V;
+
+# Greek Letters
+Α<>A;
+Β<>B;
+Γ<>G;
+Δ<>D;
+Ε<>E;
+Ζ<>Z;
+Η<>H;
+Θ<>Q;
+Ι<>I;
+Κ<>K;
+Λ<>L;
+Μ<>M;
+Ν<>N;
+Ξ<>X;
+Ο<>O;
+Π<>P;
+Ρ<>R;
+Σ<>S;
+Τ<>T;
+Υ<>U;
+Φ<>F;
+Χ<>C;
+Ψ<>Y;
+Ω<>W;
+
+# Non-letter characters
+ͺ<>i;
+̔<>h;
+ʽ>h;
+
+́<>\/;
+̀<>\\;
+͂<>\~;
+͂<\=;
+
+[:Mn:]>;
+
+:: ([a-gj-z] upper);
+:: NFC (NFD);
+:: ([[:Latin:][\/\\\~\=]]);

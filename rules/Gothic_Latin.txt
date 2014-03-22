@@ -1,0 +1,59 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2001-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Gothic_Latin.txt
+# Generated from CLDR
+
+# Based on standard Gothic transliteration
+# Cf. Wilhelm Streitberg's Gotisches Elementarbuch p. 41
+
+# Gothic-Latin
+
+:: [:Gothic:];
+:: (NFC);
+
+# the hv ligature might not be ligatured
+|ƕ<hv;
+# thorn may be expanded
+|þ<th;
+
+# Completeness mapping for Latin
+|k<c;
+|w<v;
+|u<y;
+
+# Gothic letters
+𐌰<>a;
+𐌱<>b;
+𐌲<>g;
+𐌳<>d;
+𐌴<>e;
+𐌵<>q;
+𐌶<>z;
+𐌷<>h;
+𐌸<>þ;
+𐌹̈<>ï;
+𐌹<>i;
+𐌺<>k;
+𐌻<>l;
+𐌼<>m;
+𐌽<>n;
+𐌾<>j;
+𐌿<>u;
+𐍀<>p;
+𐍁>90;
+𐍂<>r;
+𐍃<>s;
+𐍄<>t;
+𐍅<>w;
+𐍆<>f;
+𐍇<>x;
+𐍈<>ƕ;
+𐍉<>o;
+𐍊>900;
+
+:: ([:Latin:] lower);
+:: (NFD);

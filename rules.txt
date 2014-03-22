@@ -1,0 +1,608 @@
+// ***************************************************************************
+// *
+// *   Copyright 2006-2009
+// *    All rights reserved.  Usage permitted according to the MIT/X11
+// *    License: http://www.opensource.org/licenses/mit-license.php
+// *
+// ***************************************************************************
+// 
+	
+rules {
+    RuleBasedTransliteratorIDs {
+
+// unidirectional
+
+// bidirectional
+
+// biblical scripts & primarily scholarly transliteration schemes
+
+// Greek
+        Greek-Latin/SBL {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_SBL.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Greek/SBL {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_SBL.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Greek-Latin/BGreek {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_BGreek.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Greek/BGreek {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_BGreek.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Greek-Latin/Beta {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_Beta.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Greek/Beta {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_Beta.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Greek-Latin/TC {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_TC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Greek/TC {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_TC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Greek-Latin/ISO {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_ISO.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Greek/ISO {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_ISO.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Greek-Latin/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_ALALC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Greek/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_ALALC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Greek-Latin/BGN {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_BGN.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Greek/BGN {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_BGN.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Greek-Latin/Ballard {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_Ballard.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Greek/Ballard {
+            file {
+                    resource:process(transliterator){"rules/Greek_Latin_Ballard.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Coptic
+        Coptic-Latin/SBL {
+            file {
+                    resource:process(transliterator){"rules/Coptic_Latin_SBL.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Coptic/SBL {
+            file {
+                    resource:process(transliterator){"rules/Coptic_Latin_SBL.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Coptic-Latin/Beta {
+            file {
+                    resource:process(transliterator){"rules/Coptic_Latin_Beta.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Coptic/Beta {
+            file {
+                    resource:process(transliterator){"rules/Coptic_Latin_Beta.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Coptic-Latin {
+	    alias {"Coptic-Latin/SBL"}
+        }
+        Latin-Coptic {
+	    alias {"Latin-Coptic/SBL"}
+        }
+        Coptic-Latin/TC {
+	    alias {"Greek-Latin/TC"}
+        }
+        Latin-Coptic/TC {
+	    alias {"Latin-Greek/TC"}
+        }
+
+// Hebrew
+        Hebrew-Latin/TC {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_TC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Hebrew/TC {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_TC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Hebrew-Latin/SBL {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_SBL.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Hebrew/SBL {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_SBL.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Hebrew-Latin/UNGEGN {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_UNGEGN.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Hebrew/UNGEGN {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_UNGEGN.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Hebrew-Latin/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_ALALC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Hebrew/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_ALALC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Hebrew-Latin/Beta {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_Beta.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Hebrew/Beta {
+            file {
+                    resource:process(transliterator){"rules/Hebrew_Latin_Beta.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Syriac
+        Syriac-Latin/Hugoye {
+            file {
+                    resource:process(transliterator){"rules/Syriac_Latin_Hugoye.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Syriac/Hugoye {
+            file {
+                    resource:process(transliterator){"rules/Syriac_Latin_Hugoye.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Syriac-Latin/Beta {
+            file {
+                    resource:process(transliterator){"rules/Syriac_Latin_Beta.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Syriac/Beta {
+            file {
+                    resource:process(transliterator){"rules/Syriac_Latin_Beta.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Syriac-Latin/TC {
+            file {
+                    resource:process(transliterator){"rules/Syriac_Latin_TC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Syriac/TC {
+            file {
+                    resource:process(transliterator){"rules/Syriac_Latin_TC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Syriac-Hebrew {
+	    alias {"Syriac-Latin/TC;Latin-Hebrew/TC"}
+        }
+        Hebrew-Syriac {
+	    alias {"Hebrew-Latin/TC;Latin-Syriac/TC"}
+        }
+
+//Ugaritic
+        Ugaritic-Latin/SBL {
+            file {
+                    resource:process(transliterator){"rules/Ugaritic_Latin_SBL.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Ugaritic/SBL {
+            file {
+                    resource:process(transliterator){"rules/Ugaritic_Latin_SBL.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Ugaritic-Latin {
+	    alias {"Ugaritic-Latin/SBL"}
+        }
+        Latin-Ugaritic {
+	    alias {"Latin-Ugaritic/SBL"}
+        }
+
+// modern scripts
+
+// Armenian
+        Armenian-Latin/BGN {
+            file {
+                    resource:process(transliterator){"rules/Armenian_Latin_BGN.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Armenian/BGN {
+            file {
+                    resource:process(transliterator){"rules/Armenian_Latin_BGN.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Armenian-Latin/ISO {
+            file {
+                    resource:process(transliterator){"rules/Armenian_Latin_ISO.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Armenian/ISO {
+            file {
+                    resource:process(transliterator){"rules/Armenian_Latin_ISO.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Armenian-Latin/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Armenian_Latin_ALALC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Armenian/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Armenian_Latin_ALALC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Ethiopic
+        Ethiopic-Latin/UNGEGN {
+            file {
+                    resource:process(transliterator){"rules/Ethiopic_Latin_UNGEGN.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Ethiopic/UNGEGN {
+            file {
+                    resource:process(transliterator){"rules/Ethiopic_Latin_UNGEGN.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Ethiopic-Latin/BGN {
+            file {
+                    resource:process(transliterator){"rules/Ethiopic_Latin_BGN.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Ethiopic/BGN {
+            file {
+                    resource:process(transliterator){"rules/Ethiopic_Latin_BGN.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Ethiopic-Latin/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Ethiopic_Latin_ALALC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Ethiopic/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Ethiopic_Latin_ALALC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Ethiopic-Latin/SERA {
+            file {
+                    resource:process(transliterator){"rules/Ethiopic_Latin_SERA.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Ethiopic/SERA {
+            file {
+                    resource:process(transliterator){"rules/Ethiopic_Latin_SERA.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Ethiopic-Latin {
+	    alias {"Ethiopic-Latin/UNGEGN"}
+        }
+        Latin-Ethiopic {
+	    alias {"Latin-Ethiopic/UNGEGN"}
+        }
+
+// Georgian
+        Georgian-Latin/BGN {
+            file {
+                    resource:process(transliterator){"rules/Georgian_Latin_BGN.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Georgian/BGN {
+            file {
+                    resource:process(transliterator){"rules/Georgian_Latin_BGN.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Georgian-Latin/ISO {
+            file {
+                    resource:process(transliterator){"rules/Georgian_Latin_ISO.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Georgian/ISO {
+            file {
+                    resource:process(transliterator){"rules/Georgian_Latin_ISO.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Georgian-Latin/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Georgian_Latin_ALALC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Georgian/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Georgian_Latin_ALALC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Thaana
+        Thaana-Latin/BGN {
+            file {
+                    resource:process(transliterator){"rules/Thaana_Latin_BGN.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Thaana/BGN {
+            file {
+                    resource:process(transliterator){"rules/Thaana_Latin_BGN.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Thaana-Latin/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Thaana_Latin_ALALC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Thaana/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Thaana_Latin_ALALC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// CJK
+        Kanji-Romaji {
+            file {
+                    resource:process(transliterator){"rules/Kanji_Romaji.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+
+// ancient scripts
+
+// Gothic
+        Gothic-Latin {
+            file {
+                    resource:process(transliterator){"rules/Gothic_Latin.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Gothic {
+            file {
+                    resource:process(transliterator){"rules/Gothic_Latin.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Gothic-Latin/Basic {
+            file {
+                    resource:process(transliterator){"rules/Gothic_Latin_Basic.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Gothic/Basic {
+            file {
+                    resource:process(transliterator){"rules/Gothic_Latin_Basic.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Linear B
+        LinearB-Latin {
+            file {
+                    resource:process(transliterator){"rules/LinearB_Latin.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-LinearB {
+            file {
+                    resource:process(transliterator){"rules/LinearB_Latin.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Cypriot
+        Cypriot-Latin {
+            file {
+                    resource:process(transliterator){"rules/Cypriot_Latin.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Cypriot {
+            file {
+                    resource:process(transliterator){"rules/Cypriot_Latin.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Runic
+        Runic-Latin {
+            file {
+                    resource:process(transliterator){"rules/Runic_Latin.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Runic {
+            file {
+                    resource:process(transliterator){"rules/Runic_Latin.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Ogham
+        Ogham-Latin {
+            file {
+                    resource:process(transliterator){"rules/Ogham_Latin.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Ogham {
+            file {
+                    resource:process(transliterator){"rules/Ogham_Latin.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Glagolitic
+        Glagolitic-Latin/ISO {
+            file {
+                    resource:process(transliterator){"rules/Glagolitic_Latin_ISO.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Glagolitic/ISO {
+            file {
+                    resource:process(transliterator){"rules/Glagolitic_Latin_ISO.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Glagolitic-Latin/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Glagolitic_Latin_ALALC.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Glagolitic/ALALC {
+            file {
+                    resource:process(transliterator){"rules/Glagolitic_Latin_ALALC.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+        Glagolitic-Latin {
+	    alias {"Glagolitic-Latin/ISO"}
+        }
+        Latin-Glagolitic {
+	    alias {"Latin-Glagolitic/ISO"}
+        }
+        Glagolitic-Cyrillic {
+            file {
+                    resource:process(transliterator){"rules/Glagolitic_Cyrillic.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Cyrillic-Glagolitic {
+            file {
+                    resource:process(transliterator){"rules/Glagolitic_Cyrillic.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Old Italic
+        OldItalic-Latin {
+            file {
+                    resource:process(transliterator){"rules/OldItalic_Latin.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-OldItalic {
+            file {
+                    resource:process(transliterator){"rules/OldItalic_Latin.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+// Cherokee
+        Cherokee-Latin {
+            file {
+                    resource:process(transliterator){"rules/Cherokee_Latin.txt"}
+                    direction{"FORWARD"}
+            }
+        }
+        Latin-Cherokee {
+            file {
+                    resource:process(transliterator){"rules/Cherokee_Latin.txt"}
+                    direction{"REVERSE"}
+            }
+        }
+
+
+// eof
+  }
+}

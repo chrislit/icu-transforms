@@ -1,0 +1,103 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Greek_Latin_TC.txt
+# Generated from CLDR
+
+# Based on TC Transliteration:
+# http://rosetta.reltech.org/TC/TC-translit.html
+
+# Greek-Latin/TC
+
+:: [[:Greek:][̣̈̓̔́̀͂ͅ·—‐’̅]];
+:: NFD (NFC);
+
+$betaMarks = [\+\)\(\|\/\\\=\?];
+
+# Letters
+#  Uppercase
+Α<>A;
+Β<>B;
+Γ<>G;
+Δ<>D;
+Ε<>E;
+Ϝ<>V;
+Ζ<>Z;
+Η<>H;
+Θ<>Q;
+Ι<>I;
+Κ<>K;
+Λ<>L;
+Μ<>M;
+Ν<>N;
+Ξ<>C;
+Ο<>O;
+Π<>P;
+Ρ<>R;
+Σ<>S;
+Σ<J;
+Τ<>T;
+Υ<>U;
+Φ<>F;
+Χ<>X;
+Ψ<>Y;
+Ω<>W;
+
+#  Lowercase
+α<>a;
+β<>b;
+γ<>g;
+δ<>d;
+ε<>e;
+ϝ<>v;
+ζ<>z;
+η<>h;
+θ<>q;
+ι<>i;
+κ<>k;
+λ<>l;
+μ<>m;
+ν<>n;
+ξ<>c;
+ο<>o;
+π<>p;
+ρ<>r;
+ς<j;
+ς<s}[^[:L:][:M:]];
+ς>s;
+σ<>s;
+τ<>t;
+υ<>u;
+φ<>f;
+χ<>x;
+ψ<>y;
+ω<>w;
+
+# Non-letter characters
+̈<>\+;
+̓<>\);
+̔<>\(;
+ͅ<>\|;
+́<>\/;
+̀<>\\;
+͂<>\=;
+̣<>\?;
+
+·<>\:;
+—<>\-\-;
+‐<>\-;
+’<>\';
+̅<>\_;
+̄>\_;
+
+::Null;
+
+# Move accents preceding capitals/words after the letter
+$2$1<($betaMarks+)([A-Z]);
+$2$1<[^[[A-Za-z123]$betaMarks]]{($betaMarks+)([A-Za-z]);
+
+:: NFC (NFD);
+:: ([A-Za-z\+\)\(\|\/\\\=\?\:\-\'\_]);

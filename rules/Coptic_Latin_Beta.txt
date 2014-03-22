@@ -1,0 +1,118 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2009-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Coptic_Latin_Beta.txt
+# Generated from CLDR
+
+# Based on Beta code for CCAT/CATSS/TLG:
+# http://ccat.sas.upenn.edu/gopher/text/religion/biblical/0-betacode.txt
+# and:
+# http://www.tlg.uci.edu/encoding/BCM2013.pdf
+
+# Coptic-Latin/Beta
+
+:: [[:Coptic:][̓ʼ᾽᾿̔ʽ῞´ˊ΄´͂̂\^ˆ῀̀\`ˋ`̈¨ͅιͺ̣··;’‐—]];
+:: NFD (NFC);
+
+# Letters
+#  Map archaic letters to close approximates
+|K<\#3;
+|S<\#5;
+
+#  Uppercase
+Ⲁ<>\*A;
+Ⲃ<>\*B;
+Ⲅ<>\*G;
+Ⲇ<>\*D;
+Ⲉ<>\*E;
+Ⲋ<>\*V;
+Ⲍ<>\*Z;
+Ⲏ<>\*H;
+Ⲑ<>\*Q;
+Ⲓ<>\*I;
+Ⲕ<>\*K;
+Ⲗ<>\*L;
+Ⲙ<>\*M;
+Ⲛ<>\*N;
+Ⲝ<>\*C;
+Ⲟ<>\*O;
+Ⲫ<>\*F;
+Ⲯ<>\*Y;
+Ⲡ<>\*P;
+Ⲣ<>\*R;
+Ⲥ<\*J;
+Ⲥ<\*S[123];
+Ⲥ<>\*S;
+Ⲧ<>\*T;
+Ⲩ<>\*U;
+Ⲭ<>\*X;
+Ⲱ<>\*W;
+Ϣ<>\*s;
+Ϥ<>\*f;
+Ϩ<>\*h;
+Ϫ<>\*j;
+Ϭ<>\*g;
+Ϯ<>\*t;
+
+#  Lowercase
+ⲁ<>A;
+ⲃ<>B;
+ⲅ<>G;
+ⲇ<>D;
+ⲉ<>E;
+ⲋ<>V;
+ⲍ<>Z;
+ⲏ<>H;
+ⲑ<>Q;
+ⲓ<>I;
+ⲕ<>K;
+ⲗ<>L;
+ⲙ<>M;
+ⲛ<>N;
+ⲝ<>C;
+ⲟ<>O;
+ⲫ<>F;
+ⲯ<>Y;
+ⲡ<>P;
+ⲣ<>R;
+ⲥ<J;
+ⲥ<S[123];
+ⲥ<>S;
+ⲧ<>T;
+ⲩ<>U;
+ⲭ<>X;
+ⲱ<>W;
+ϣ<>s;
+ϥ<>f;
+ϩ<>h;
+ϫ<>j;
+ϭ<>g;
+ϯ<>t;
+
+# Non-letter characters
+#  Delete Greek accents
+<[\)\(\/\=\\\+\|\?];
+
+#  ignore period & comma
+
+#  middle dot
+·<>\:;
+·>\:;
+#  semicolon (question mark) -- use a semicolon in both scripts
+;>\;;
+#  apostrophe
+’<>\';
+#  hyphen
+‐<>\-;
+—<>\_;
+
+# Coptic encoded in Beta (as opposed to Greek) is cased.
+# E.g., uppercase S maps to sigma, whereas lowercase s maps to shai.
+# However, the 20 letters below do not have lower case values in Coptic Beta, so we uppercase them here.
+:: ([abcdeiklmnopqruvwxyz] upper);
+
+:: NFC (NFD);
+:: ([\*A-Za-z\#1235\)\(\/\=\\\+\|\?\:\;\'\-\_]);

@@ -1,0 +1,238 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2012-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Inuktitut_Latin.txt
+# Generated from CLDR
+
+# Based on the standardized Inuit Cultural Institute mapping of
+# qaniujaaqpait to qaliujaaqpait via Daniels & Bright p.607,
+# supplemented with mappings from Unicode characters
+# specifically noted to be for Inuktitut or one of its dialects.
+
+# Latin-Inuktitut/ICI
+
+:: [[:Latin:][\.\-\'\&]];
+:: NFD ();
+:: [A-Z] lower();
+
+# Completeness mappings
+b>p;
+d>t;
+e>ai;
+f>v;
+o>u;
+c>k;
+w>v;
+x>ks;
+y>j;
+z>s;
+
+:: Null();
+
+# nng- series
+nngii<>ᙲ;
+nngi<>ᙱ;
+nnguu<>ᙴ;
+nngu<>ᙳ;
+nngaa<>ᙶ;
+nnga<>ᙵ;
+nng<>ᖖ;
+
+# ng- series
+ngaai<>ᖎ;
+ngai<>ᙰ;
+ngii<>ᖐ;
+ngi<>ᖏ;
+nguu<>ᖒ;
+ngu<>ᖑ;
+ngaa<>ᖔ;
+nga<>ᖓ;
+ng<>ᖕ;
+
+# p- series
+paai<>ᐰ;
+pai<>ᐯ;
+pii<>ᐲ;
+pi<>ᐱ;
+puu<>ᐴ;
+pu<>ᐳ;
+paa<>ᐹ;
+pa<>ᐸ;
+p<>ᑉ;
+
+# t- series
+taai<>ᑍ;
+tai<>ᑌ;
+tii<>ᑏ;
+ti<>ᑎ;
+tuu<>ᑑ;
+tu<>ᑐ;
+taa<>ᑖ;
+ta<>ᑕ;
+t<>ᑦ;
+
+# k- series
+kaai<>ᑬ;
+kai<>ᑫ;
+kii<>ᑮ;
+ki<>ᑭ;
+kuu<>ᑰ;
+ku<>ᑯ;
+kaa<>ᑳ;
+ka<>ᑲ;
+k<>ᒃ;
+
+# g- series
+gaai<>ᒊ;
+gai<>ᒉ;
+gii<>ᒌ;
+gi<>ᒋ;
+guu<>ᒎ;
+gu<>ᒍ;
+gaa<>ᒑ;
+ga<>ᒐ;
+g<>ᒡ;
+
+# m- series
+maai<>ᒤ;
+mai<>ᒣ;
+mii<>ᒦ;
+mi<>ᒥ;
+muu<>ᒨ;
+mu<>ᒧ;
+maa<>ᒫ;
+ma<>ᒪ;
+m<>ᒻ;
+
+# n- series
+naai<>ᓁ;
+nai<>ᓀ;
+nii<>ᓃ;
+ni<>ᓂ;
+nuu<>ᓅ;
+nu<>ᓄ;
+naa<>ᓈ;
+na<>ᓇ;
+n<>ᓐ;
+
+# s- series
+saai<>ᓮ;
+sai<>ᓭ;
+sii<>ᓰ;
+si<>ᓯ;
+suu<>ᓲ;
+su<>ᓱ;
+saa<>ᓵ;
+sa<>ᓴ;
+s<>ᔅ;
+
+# l- series
+laai<>ᓔ;
+lai<>ᓓ;
+lii<>ᓖ;
+li<>ᓕ;
+luu<>ᓘ;
+lu<>ᓗ;
+laa<>ᓛ;
+la<>ᓚ;
+l<>ᓪ;
+
+# j- series
+jaai<>ᔧ;
+jai<>ᔦ;
+jii<>ᔩ;
+ji<>ᔨ;
+juu<>ᔫ;
+ju<>ᔪ;
+jaa<>ᔮ;
+ja<>ᔭ;
+j<>ᔾ;
+
+# v- series
+vaai<>ᕔ;
+vai<>ᕓ;
+vii<>ᕖ;
+vi<>ᕕ;
+vuu<>ᕘ;
+vu<>ᕗ;
+vaa<>ᕚ;
+va<>ᕙ;
+v<>ᕝ;
+
+# r- series
+raai<>ᕅ;
+rai<>ᕂ;
+rii<>ᕇ;
+ri<>ᕆ;
+ruu<>ᕉ;
+ru<>ᕈ;
+raa<>ᕌ;
+ra<>ᕋ;
+r<>ᕐ;
+
+# q- series
+qaai<>ᕾ;
+qai<>ᙯ;
+qii<>ᖀ;
+qi<>ᕿ;
+quu<>ᖂ;
+qu<>ᖁ;
+qaa<>ᖄ;
+qa<>ᖃ;
+q<>ᖅ;
+
+# ł- series
+łii<>ᖡ;
+łi<>ᖠ;
+łuu<>ᖣ;
+łu<>ᖢ;
+łaa<>ᖥ;
+ła<>ᖤ;
+ł<>ᖦ;
+
+# &- (alternate ł-) series
+\&ii>ᖡ;
+\&i>ᖠ;
+\&uu>ᖣ;
+\&u>ᖢ;
+\&aa>ᖥ;
+\&a>ᖤ;
+\&>ᖦ;
+
+# Nunavik h- series
+hai<ᕴ;
+hii<ᕶ;
+hi<ᕵ;
+huu<ᕸ;
+hu<ᕷ;
+haa<ᕺ;
+ha<ᕹ;
+h<ᕻ;
+
+# Nunavut h
+h<ᕼ;
+
+# Aivilik b
+b<ᖯ;
+
+# vocalic series
+aai<ᐂ;
+ai<ᐁ;
+ii<>ᐄ;
+i<>ᐃ;
+uu<>ᐆ;
+u<>ᐅ;
+aa<>ᐋ;
+a<>ᐊ;
+h<>ᐦ;
+\'<>ᐟ;
+
+# punctuation
+\-<᐀;
+\.<᙮;
+
+:: NFC();
+:: ([:Canadian_Aboriginal:]);

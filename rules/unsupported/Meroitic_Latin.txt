@@ -1,0 +1,37 @@
+﻿#--------------------------------------------------------------------
+# Copyright 2001-2009
+# All rights reserved.  Usage permitted according to the MIT/X11
+# License: http://www.opensource.org/licenses/mit-license.php
+#--------------------------------------------------------------------
+# Based on transliteration presented in The World's Writing Systems
+# edited by Peter Daniels & William Bright, p. 85
+#--------------------------------------------------------------------
+# Unicode based on proposal: http://std.dkuug.dk/JTC1/SC2/WG2/docs/n1638/n1638.htm
+# Meroitic-Latin
+:: NFD (NFC);
+[:^L:]{ጾ0<>a;
+ጾA<>ne;
+ጾD<>ḫ;
+ጾE<>ẖ;
+ጾF<>se;
+ጿ4<>te;
+ጿ5<>to;
+ጾ1<>e;
+ጾ2<>o;
+ጾ3<>i;
+ጾ4<>y;
+ጾ5<>w;
+ጾ6<>b;
+ጾ7<>p;
+ጾ8<>m;
+ጾ9<>n;
+ጾB<>r;
+ጾC<>l;
+ጿ0<>s;
+ጿ1<>k;
+ጿ2<>q;
+ጿ3<>t;
+ጿ6<>d;
+ጿ7<>' ';
+:: (lower);
+:: NFC (NFD);

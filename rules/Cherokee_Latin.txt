@@ -1,0 +1,146 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2009-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Cherokee_Latin.txt
+# Generated from CLDR
+
+# Cherokee-Latin
+
+:: [:Cherokee:];
+:: (NFC);
+
+Ꭰ<>a;
+Ꭱ<>e;
+Ꭲ<>i;
+Ꭳ<>o;
+Ꭴ<>u;
+Ꭵ<>v;
+Ꭶ<>ga;
+Ꭷ<>ka;
+Ꭸ<>ge;
+Ꭸ<ke;
+Ꭹ<>gi;
+Ꭹ<ki;
+Ꭺ<>go;
+Ꭺ<ko;
+Ꭻ<>gu;
+Ꭻ<ku;
+Ꭼ<>gv;
+Ꭼ<kv;
+Ꭽ<>ha;
+Ꭾ<>he;
+Ꭿ<>hi;
+Ꮀ<>ho;
+Ꮁ<>hu;
+Ꮂ<>hv;
+Ꮃ<>la;
+Ꮄ<>le;
+Ꮅ<>li;
+Ꮆ<>lo;
+Ꮇ<>lu;
+Ꮈ<>lv;
+Ꮉ<>ma;
+Ꮊ<>me;
+Ꮋ<>mi;
+Ꮌ<>mo;
+Ꮍ<>mu;
+Ꮐ<>nah;
+Ꮎ<>na;
+Ꮏ<>hna;
+Ꮑ<>ne;
+Ꮒ<>ni;
+Ꮓ<>no;
+Ꮔ<>nu;
+Ꮕ<>nv;
+Ꮖ<>qua;
+Ꮗ<>que;
+Ꮘ<>qui;
+Ꮙ<>quo;
+Ꮚ<>quu;
+Ꮛ<>quv;
+Ꮜ<>sa;
+Ꮞ<>se;
+Ꮟ<>si;
+Ꮠ<>so;
+Ꮡ<>su;
+Ꮢ<>sv;
+Ꮝ<>s;
+Ꮣ<>da;
+Ꮤ<>ta;
+Ꮥ<>de;
+Ꮦ<>te;
+Ꮧ<>di;
+Ꮨ<>ti;
+Ꮩ<>do;
+Ꮩ<to;
+Ꮪ<>du;
+Ꮪ<tu;
+Ꮫ<>dv;
+Ꮫ<tv;
+Ꮬ<>dla;
+Ꮭ<>tla;
+Ꮮ<>tle;
+Ꮮ<dle;
+Ꮯ<>tli;
+Ꮯ<dli;
+Ꮰ<>tlo;
+Ꮰ<dlo;
+Ꮱ<>tlu;
+Ꮱ<dlu;
+Ꮲ<>tlv;
+Ꮲ<dlv;
+Ꮳ<>tsa;
+Ꮴ<>tse;
+Ꮵ<>tsi;
+Ꮶ<>tso;
+Ꮷ<>tsu;
+Ꮸ<>tsv;
+Ꮹ<>wa;
+Ꮺ<>we;
+Ꮻ<>wi;
+Ꮼ<>wo;
+Ꮽ<>wu;
+Ꮾ<>wv;
+Ꮿ<>ya;
+Ᏸ<>ye;
+Ᏹ<>yi;
+Ᏺ<>yo;
+Ᏻ<>yu;
+Ᏼ<>yv;
+
+:: Null; #sync
+
+# Non-syllabic Latin
+|ga<g}[^aeiouv];
+|ka<k}[^aeiouv];
+|ha<[^n][^a]{h}[^aeiouvn];
+|hna<hn}[^aeiouv];
+|la<l}[^aeiouv];
+|ma<m}[^aeiouv];
+|na<n}[^aeiouv];
+|wa<w}[^aeiouv];
+|ya<y}[^aeiouv];
+|da<d}[^aeiouvl];
+|ta<t}[^aeiouvsl];
+|qua<qu}[^aeiouv];
+|tsa<ts}[^aeiouv];
+
+:: Null; #sync
+
+# Completeness mappings
+|m<b;
+|k<c;
+|w<f;
+|y<j;
+|m<p;
+|qu<q}[^u];
+|l<r;
+|h<x;
+|s<z;
+
+:: ([A-Z] lower);
+:: (NFD);
+:: ([:Latin:]);

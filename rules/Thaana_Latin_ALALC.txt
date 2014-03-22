@@ -1,0 +1,81 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Thaana_Latin_ALALC.txt
+# Generated from CLDR
+
+# Based ALA-LC Romanization from
+# http://lcweb.loc.gov/catdir/cpso/romanization/divehi.pdf
+# This transform definitely needs more attention
+
+# Thaana-Latin/ALALC
+
+:: NFD (NFC);
+$consonants = [\u0780-\u07A5];
+
+ށް}[:^L:]>ḫ;
+ށް}[$consonants]>ḫ;
+ތްތ<>t̤t;
+ޘ<>th;
+ޙ<>ḥ;
+ޚ<>kh;
+ޛ<>dh;
+ޜ<>x;
+ޝ<>sh;
+ޞ<>ṣ;
+ޟ<>ḏ;
+ޠ<>t̤;
+ޡ<>ẓ;
+ޢ<>ʼ;
+ޣ<>gh;
+ޤ<>q;
+ޥ<>w;
+ތް<>iy;
+ށ<>ś;
+ށ<ḫ;
+ޅ<>ḷ;
+ޏ<>ñ;
+ޑ<>ḍ;
+ޓ<>ṭ;
+ޗ<>c;
+[:^L:]{އ>;
+އް([:L:])>|$1 $1;
+އް<>ẖ;
+އ>;
+ހ<>h;
+ން<>ṁ;
+ނ<>n;
+ރ<>r;
+ބ<>b;
+ކ<>k;
+ވ<>v;
+މ<>m;
+ފ<>f;
+ދ<>d;
+ތ<>t;
+ލ<>l;
+ގ<>g;
+ސ<>s;
+ޒ<>z;
+ޔ<>y;
+ޕ<>p;
+ޖ<>j;
+ާ<>ā;
+ީ<>ī;
+ޫ<>ū;
+ޭ<>ē;
+ޯ<>ō;
+|$1 އ $2<([aeiou])([aeiou]);
+ަ<>a;
+ި<>i;
+ު<>u;
+ެ<>e;
+ޮ<>o;
+ް>;
+ޱ>n;
+
+:: (lower);
+:: NFC (NFD);

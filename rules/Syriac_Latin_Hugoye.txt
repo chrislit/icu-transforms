@@ -1,0 +1,92 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Syriac_Latin_Hugoye.txt
+# Generated from CLDR
+
+# Based on transliteration system of Hugoye: Journal of Syriac Studies
+# http://syrcom.cua.edu/Hugoye/Translit.html
+
+# Syriac-Latin/Hugoye
+
+:: [:Syriac:];
+:: (NFC);
+$letter=[:M:]*[[:L:][\'̄ᶜ̱]];
+
+|ks<x; #completeness
+
+# Syriac (common)
+ܞ>yh;
+ܚ<>ẖ;
+ܛ<>ṯ;
+ܜ>ṯ;
+ܨ<>s̱;
+ܫ<>sh;
+ܐ<>\';
+ܑ>\';
+ܒ<>b;
+ܓ<>g;
+ܔ>g;
+ܕ<>d;
+ܖ>d;
+ܗ<>h;
+ܘ<>w;
+ܘ<f; #completeness
+ܘ<v; #completeness
+ܙ<>z;
+ܝ<>y;
+ܝ<j; #completeness
+ܟ<>k;
+ܠ<>l;
+ܡ<>m;
+ܢ<>n;
+ܣ<s}$letter;
+ܣ>s;
+ܤ<>s;
+ܥ<>ᶜ;
+ܥ<c;
+ܦ<>p;
+ܧ>p;
+ܩ<>q;
+ܪ<>r;
+ܬ<>t;
+
+# Persian
+ܭ>b;
+ܮ>g;
+ܯ>d;
+
+# Sogdian
+ݍ>z;
+ݎ>k;
+ݏ>p;
+
+# Vowels
+ܳ<>ā;
+ܴ>ā;
+ܵ>ā;
+ܰ<>a;
+ܱ>a;
+ܲ>a;
+ܹ<>ē;
+ܸ<>e;
+ܺ<ī;
+ܺ<>i;
+ܻ>i;
+ܼ>i;
+ܶ<ū;
+ܶ<>u;
+ܷ>u;
+ܽ>u;
+ܾ>u;
+ܿ<ō;
+ܿ<>o;
+
+[܀܁܂܃܄܆܇܈܉܊܋܌܍܏݂݄݆݈݀݁݃݅݇݉݊]>;
+
+:: ([A-Z] lower);
+:: (NFD);
+:: ([[:Latin:][̄ᶜ̱\']]);

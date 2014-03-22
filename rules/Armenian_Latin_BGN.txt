@@ -1,0 +1,137 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2001-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Armenian_Latin_BGN.txt
+# Generated from CLDR
+
+# Based BGN/PCGN 1981 from
+# http://ee.www.ee/transliteration/pdf/Armenian.pdf
+
+# Armenian-Latin/BGN
+
+:: NFD (NFC);
+
+$armenian = [[:ARMENIAN:] & [:L:]];
+$armenian_vowels = [ԱԵԷԻՈՒՕաեէիուօ];
+$apos = ʼ;
+
+[:^L:]{Ե}[:Ll:]>Ye;
+[$armenian_vowels]{Ե>YE;
+[:^L:]{Ե>YE;
+[$armenian_vowels]{Ե>YE;
+[:^L:]{ՈՎ}[:^L:]>OV;
+[:^L:]{Ով}[:^L:]>Ov;
+[:^L:]{Ո}[:Ll:]>Vo;
+[:^L:]{Ո>VO;
+Ց}[:Ll:]<>Ts $apos;
+Չ}[:Ll:]<>Ch $apos;
+Ղ}[:Ll:]<>Gh;
+Ձ}[:Ll:]<>Dz;
+Ժ}[:Ll:]<>Zh;
+Խ}[:Ll:]<>Kh;
+Ծ}[:Ll:]<>Ts;
+Ճ}[:Ll:]<>Ch;
+Շ}[:Ll:]<>Sh;
+Ռ}[:Ll:]<>Rr;
+Ց<>TS $apos;
+Չ<>CH $apos;
+Ղ<>GH;
+Ձ<>DZ;
+Թ<>T $apos;
+Ժ<>ZH;
+Խ<>KH;
+Ծ<>TS;
+Ճ<>CH;
+Շ<>SH;
+Ռ<>RR;
+Փ<>P $apos;
+Ք<>K $apos;
+ՈՒ<>U;
+Ա<>A;
+Բ<>B;
+Գ<>G;
+Դ<>D;
+Ե<>E;
+Զ<>Z;
+Է>E;
+Ը<>Y;
+Ի<>I;
+Լ<>L;
+Կ<>K;
+Հ<>H;
+Մ<>M;
+Յ>Y;
+Ն<>N;
+Ո>O;
+Պ<>P;
+Ջ<>J;
+Ս<>S;
+Վ<>V;
+Տ<>T;
+Ր<>R;
+Ւ<>W;
+Օ<>O;
+Ֆ<>F;
+
+ՙ<>ʿ;
+՚<>ʾ;
+՛<>ˊ;
+՜<>'!';
+՝<>',';
+՞<>'?';
+՟>…;
+
+[:^L:]{և<>yev;
+[$armenian_vowels]{և>yev;
+[:^L:]{ե>ye;
+[$armenian_vowels]{ե>ye;
+[:^L:]{ով}[:^L:]<>ov;
+[:^L:]{ո<>vo;
+ց<>ts $apos;
+չ<>ch $apos;
+ղ<>gh;
+ձ<>dz;
+և<>ev;
+թ<>t $apos;
+ժ<>zh;
+խ<>kh;
+ծ<>ts;
+ք<>k $apos;
+ճ<>ch;
+փ<>p $apos;
+ռ<>rr;
+շ<>sh;
+ու<>u;
+ա<>a;
+բ<>b;
+գ<>g;
+դ<>d;
+ե<>e;
+զ<>z;
+է>e;
+ը<>y;
+ի<>i;
+լ<>l;
+կ<>k;
+հ<>h;
+մ<>m;
+յ>y;
+ն<>n;
+ո>o;
+պ<>p;
+ջ<>j;
+ս<>s;
+վ<>v;
+տ<>t;
+ր<>r;
+ւ<>w;
+օ<>o;
+ֆ<>f;
+
+։<>'.';
+֊<>'-';
+
+:: NFC (NFD);

@@ -1,0 +1,137 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Greek_Latin_BGN.txt
+# Generated from CLDR
+
+# Based BGN/PCGN 1962 from
+# http://ee.www.ee/transliteration/pdf/Greek.pdf
+
+# Greek-Latin/BGN
+
+:: NFD (NFC);
+
+$postnasal = [ΓγΞξΧχΚκ];
+$wordchars = [[:L:][:M:]];
+[^$wordchars]}Γ>Y;
+[^$wordchars]}γ>y;
+[^$wordchars]}Γ[Κκ]>G;
+[^$wordchars]}γκ>g;
+Γ}$postnasal>N;
+γ}$postnasal>n;
+
+# Completeness mappings
+|I<J;
+|i<j;
+|U<W;
+|u<w;
+|I<Y;
+|i<y;
+
+# Greek
+Δ}[:Ll:]<>Dh;
+Δ<>DH;
+δ<>dh;
+Δ<D;
+δ<d;
+Θ}[:Ll:]<>Th;
+Θ<>TH;
+θ<>th;
+Χ}[:Ll:]<>Kh;
+Χ<>KH;
+χ<>kh;
+Ψ}[:Ll:]<>Ps;
+Ψ<>PS;
+ψ<>ps;
+([Νν])δ([Ρρ])>|$1 d $2;
+([Νν])Δ([Ρρ])>|$1 d $2;
+ντ([ζΖ])>nt |$1;
+Ντ([ζΖ])>Nt |$1;
+ΝΤ([ζΖ])>NT |$1;
+[^$wordchars]{Μ[ΠπΒβ]>B;
+Μ[ΠπΒβ]}[^$wordchars]>B;
+[^$wordchars]{μ[πβ]>b;
+μ[πβ]}[^$wordchars]>b;
+([Μμ])Π>|$1 Β;
+([Μμ])π>|$1 β;
+[^$wordchars]{Ν[ΔδΤτ]>D;
+Ν[ΔδΤτ]}[^$wordchars]>D;
+[^$wordchars]{ν[δτ]>d;
+ν[δτ]}[^$wordchars]>d;
+([Νν])Τ>|$1 Δ;
+([Νν])τ>|$1 δ;
+Ου<U}[:Ll:];
+ΟΥ<>U;
+ου<>u;
+Α<>A;
+α<>a;
+Β<>V;
+β<>v;
+Β<B;
+β<b;
+Γ<>G;
+γ<>g;
+Ε<>E;
+ε<>e;
+Ζ<>Z;
+ζ<>z;
+Η>I;
+η>i;
+Ι<>I;
+ι<>i;
+Κ<>K;
+κ<>k;
+Κ<C;
+κ<c;
+Κ<Q;
+κ<q;
+Λ<>L;
+λ<>l;
+Μ<>M;
+μ<>m;
+Ν<>N;
+ν<>n;
+Ξ<>X;
+ξ<>x;
+Ο<>O;
+ο<>o;
+Π<>P;
+π<>p;
+Ρ<>R;
+ρ<>r;
+Σ<>S;
+ς<>s}[:^L:];
+σ<>s;
+Τ<>T;
+τ<>t;
+Υ>I;
+υ>i;
+Φ<>F;
+φ<>f;
+Χ<H;
+x<h;
+Ω>O;
+ω>o;
+
+# Archaic (not actually definted by BGN/PCGN)
+Ϝ>W;
+ϝ>w;
+Ϟ>K;
+ϟ>k;
+Ϡ>S;
+ϡ>s;
+
+# Non-letter characters
+ͅ>;
+̔>;
+·>;
+̓>;
+́>;
+͂>;
+̀>;
+̈>;
+
+:: NFC (NFD);

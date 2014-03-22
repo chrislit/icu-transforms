@@ -1,0 +1,117 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Armenian_Latin_ISO.txt
+# Generated from CLDR
+
+# Based ISO 9985:1996 from
+# http://ee.www.ee/transliteration/pdf/Armenian.pdf
+
+# Armenian-Latin/ISO
+
+:: NFD (NFC);
+
+$armenian = [[:ARMENIAN:] & [:L:]];
+$armenian_vowels = [ԱԵԷԻՈՒՕաեէիուօ];
+$apos = ʼ;
+$macron = ̄;
+$umlaut = ̈;
+$caron = ̌;
+$udot = ̣;
+$odot = ̇;
+$grave = ̀;
+
+Ճ<>C $caron $udot;
+Է<>E $macron;
+Ը<>E $umlaut;
+Թ<>T $apos;
+Ժ<>Z $caron;
+Ղ<>G $odot;
+Շ<>S $caron;
+Չ<>C $caron;
+Ջ<>J $caron;
+Ռ<>R $odot;
+Ց<>C $apos;
+Փ<>P $apos;
+Ք<>K $apos;
+Օ<>O $grave;
+Ա<>A;
+Բ<>B;
+Գ<>G;
+Դ<>D;
+Ե<>E;
+Զ<>Z;
+Ի<>I;
+Լ<>L;
+Խ<>X;
+Ծ<>Ç;
+Կ<>K;
+Հ<>H;
+Ձ<>J;
+Մ<>M;
+Յ<>Y;
+Ն<>N;
+Ո<>O;
+Պ<>P;
+Ս<>S;
+Վ<>V;
+Տ<>T;
+Ր<>R;
+Ւ<>W;
+Ֆ<>F;
+
+ՙ<>ʿ;
+՚<>ʾ;
+՛<>ˊ;
+՜<>'!';
+՝<>',';
+՞<>'?';
+՟<>…;
+
+ճ<>c $caron $udot;
+է<>e $macron;
+ը<>e $umlaut;
+թ<>t $apos;
+ժ<>z $caron;
+ղ<>g $odot;
+շ<>s $caron;
+չ<>c $caron;
+ջ<>j $caron;
+ռ<>r $odot;
+ց<>c $apos;
+փ<>p $apos;
+ք<>k $apos;
+և<>ew;
+օ<>o $grave;
+ա<>a;
+բ<>b;
+գ<>g;
+դ<>d;
+ե<>e;
+զ<>z;
+ի<>i;
+լ<>l;
+խ<>x;
+ծ<>ç;
+կ<>k;
+հ<>h;
+ձ<>j;
+մ<>m;
+յ<>y;
+ն<>n;
+ո<>o;
+պ<>p;
+ս<>s;
+վ<>v;
+տ<>t;
+ր<>r;
+ւ<>w;
+ֆ<>f;
+
+։<>'.';
+֊<>'-';
+
+:: NFC (NFD);

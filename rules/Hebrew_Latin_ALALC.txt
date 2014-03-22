@@ -1,0 +1,104 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Hebrew_Latin_ALALC.txt
+# Generated from CLDR
+
+## Based on ALA-LC Romanization from
+# http://lcweb.loc.gov/catdir/cpso/romanization/hebrew.pdf
+
+# Hebrew_Latin/ALALC
+
+:: [[:Hebrew:] [:^ccc=0:] [ְ-ֹֻ-ּׁ-ׂℵ-ℸֿ̄] - [ֽ]] ;
+:: NFKD (NFC);
+
+$letterAfter = [:M:]* [:L:];
+$letterBefore = [:L:] [:M:]*;
+
+# prime disambiguation
+|תּס<>|תּʹס;
+|תס<>|תʹס;
+|סה<>|סʹה;
+|כּה<>|כּʹה;
+
+# digraphs
+ַי>ai;
+ֶי>e;
+ֵי>e;
+ִי>i;
+וֹ>o;
+וּ>u;
+ו<>ṿ;
+ח<>ḥ;
+ט<>ṭ;
+ק<>ḳ;
+כּ>k;
+ךּ>k;
+כ<>kh } $letterAfter;
+ך<>kh;
+כּ<k } $letterAfter;
+ךּ<k;
+צ<>ts } $letterAfter;
+ץ<>ts;
+שׁ<>sh;
+שׂ<>ś;
+ש>ś;
+
+# consonants
+$letterBefore{א<>ʼ;
+א>;
+בּ<>b;
+ב<>v;
+גּ>g;
+ג<>g;
+דּ>d;
+ד<>d;
+ה<>h;
+ז<>z;
+י<>y;
+ל<>l;
+מ<>m } $letterAfter;
+ם<>m;
+נ<>n  } $letterAfter;
+ן<>n;
+ס<>s;
+ע<>ʻ;
+פּ<>p } $letterAfter;
+פ<>f } $letterAfter;
+ףּ<>p;
+ף<>f;
+ר<>r;
+תּ>t;
+ת<>t;
+װ>ṿ;
+ױ>| וי;
+ײ>| יי;
+([[:L:] -[h]])ּ<>$1$1̇;
+ּ>̇;
+ׁ>;
+ׂ>;
+
+# vowels
+ַ>a;
+ֲ>a;
+ָ<>a;
+ֶ>e;
+ֱ>e;
+ֵ<>e;
+ְ>e;
+ִ<>i;
+ֳ>o;
+ֹ<>o;
+ֻ<>u;
+ֿ<>'-';
+
+# fallbacks
+ק<c;
+ז<j;
+כס<x;
+
+:: (lower);
+:: NFC (NFD);

@@ -1,0 +1,121 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Greek_Latin_ALALC.txt
+# Generated from CLDR
+
+# Based ALA-LC Romanization from
+# http://lcweb.loc.gov/catdir/cpso/romanization/greek.pdf
+
+# Greek-Latin/ALALC
+
+:: NFD (NFC);
+
+$postnasal = [ΓγΞξΧχΚκ];
+$macron = ̄;
+$umacron = ̱;
+$wordchars = [[:L:][:M:]];
+
+Ῥ}[:Ll:]<>Rh;
+Ῥ<>RH;
+ῥ<>rh;
+([:L:])̔<>h |$1;
+([ΑαΕεΗη])Υ>|$1 U;
+([ΑαΕεΗη])υ>|$1 u;
+Η<>E$macron;
+η<>e$macron;
+Θ}[:Ll:]<>Th;
+Θ<>TH;
+θ<>th;
+Χ}[:Ll:]<>Ch;
+Χ<>CH;
+χ<>ch;
+Ψ}[:Ll:]<>Ps;
+Ψ<>PS;
+ψ<>ps;
+Ω<>O$umacron;
+ω<>o$umacron;
+[^$wordchars]{Μπ<>B}[:Ll:];
+[^$wordchars]{ΜΠ<>B;
+[^$wordchars]{μπ<>b;
+[^$wordchars]{Ντ<>D$umacron}[:Ll:];
+[^$wordchars]{ΝΤ<>D$umacron;
+[^$wordchars]{ντ>d$umacron;
+ΟΥ<>OU;
+Ου<>Ou;
+ου<>ou;
+Α<>A;
+α<>a;
+Β<>V;
+β<>v;
+Γ}$postnasal>N;
+γ}$postnasal>n;
+Γ<>G;
+γ<>g;
+Δ<>D;
+δ<>d;
+Ε<>E;
+ε<>e;
+Ζ<>Z;
+ζ<>z;
+Ι<>I;
+ι<>i;
+Ι<J;
+ι<j;
+Κ<>K;
+κ<>k;
+Κ<C;
+κ<c;
+Κ<Q;
+κ<q;
+Λ<>L;
+λ<>l;
+Μ<>M;
+μ<>m;
+Ν<>N;
+ν<>n;
+Ξ<>X;
+ξ<>x;
+Ο<>O;
+ο<>o;
+Π<>P;
+π<>p;
+Ρ<>R;
+ρ<>r;
+Σ<>S;
+ς<>s}[:^L:];
+σ<>s;
+Τ<>T;
+τ<>t;
+Υ<>Y;
+υ<>y;
+Υ<U;
+υ<u;
+Υ<W;
+υ<w;
+Φ<>F;
+φ<>f;
+Χ<H;
+χ<h;
+
+# Archaic (not actually defined by ALA/LC)
+Ϝ>W;
+ϝ>w;
+Ϟ>K;
+ϟ>k;
+Ϡ>S;
+ϡ>s;
+
+# Non-letter characters
+ͅ>;
+·>;
+̓>;
+́>;
+͂>;
+̀>;
+̈>;
+
+:: NFC (NFD);

@@ -1,0 +1,165 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2003-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: LinearB_Latin.txt
+# Generated from CLDR
+
+# Linear B-Latin
+
+:: [:Linear_B:];
+:: (NFC);
+
+$consonant = [dhkmnpqrstwzj];
+$vowel = [aeiou];
+
+# add a hyphen between Linear B signs
+([[:Linear_B:]&[:L:]])([[:Linear_B:]&[:L:]])>|$1\-$2;
+
+# Real mappings, in reverse order of Latin length
+𐁃<>dwe;
+𐁄<>dwo;
+𐁅<>nwa;
+𐁆<>phu;
+𐁇<>pte;
+𐁈<>rja;
+𐁉<>rai;
+𐁊<>rjo;
+𐁋<>tja;
+
+𐁌<>twe;
+𐁍<>two;
+
+# Remaining instances of h[^a] should become k
+|k<h}[^a];
+
+# Break consonant clusters by copying vowels
+|$1$5$2$5$3$5$4$5<($consonant)($consonant)($consonant)($consonant)($vowel);
+|$1$4$2$4$3$4<($consonant)($consonant)($consonant)($vowel);
+|$1$3$2$3<($consonant)($consonant)($vowel);
+
+𐀅<>da;
+𐀆<>de;
+𐀇<>di;
+𐀈<>do;
+𐀉<>du;
+𐀊<>ja;
+𐀋<>je;
+𐀍<>jo;
+𐀎<>ju;
+𐀏<>ka;
+𐀐<>ke;
+𐀑<>ki;
+𐀒<>ko;
+𐀓<>ku;
+𐀔<>ma;
+𐀕<>me;
+𐀖<>mi;
+𐀗<>mo;
+𐀘<>mu;
+𐀙<>na;
+𐀚<>ne;
+𐀛<>ni;
+𐀜<>no;
+𐀝<>nu;
+𐀞<>pa;
+𐀟<>pe;
+𐀠<>pi;
+𐀡<>po;
+𐀢<>pu;
+𐀣<>qa;
+𐀤<>qe;
+𐀥<>qi;
+𐀦<>qo;
+𐀨<>ra;
+𐀩<>re;
+𐀪<>ri;
+𐀫<>ro;
+𐀬<>ru;
+𐀭<>sa;
+𐀮<>se;
+𐀯<>si;
+𐀰<>so;
+𐀱<>su;
+𐀲<>ta;
+𐀳<>te;
+𐀴<>ti;
+𐀵<>to;
+𐀶<>tu;
+𐀷<>wa;
+𐀸<>we;
+𐀹<>wi;
+𐀺<>wo;
+𐀼<>za;
+𐀽<>ze;
+𐀿<>zo;
+𐁀<>ha;
+𐁁<>ai;
+𐁂<>au;
+𐀀<>a;
+𐀁<>e;
+𐀂<>i;
+𐀃<>o;
+𐀄<>u;
+
+# completeness mappings for non-syllabic Latin
+𐀅<d;
+𐁀<h;
+𐀊<j;
+𐀏<k;
+𐀔<m;
+𐀙<n;
+𐀞<p;
+𐀣<q;
+𐀨<r;
+𐀭<s;
+𐀲<t;
+𐀷<w;
+𐀼<z;
+
+# Syncronize
+::Null;
+
+# eliminate doubled consonants
+|d<dd+;
+|j<jj+;
+|k<kk+;
+|m<mm+;
+|n<nn+;
+|p<pp+;
+|q<qq+;
+|r<rr+;
+|s<ss+;
+|t<tt+;
+|w<ww+;
+|z<zz+;
+
+# eliminate word-final Latin consonants
+< $consonant+ } [:^L:];
+
+# Syncronize
+::Null;
+
+# eliminate all Greek diacritics that might reasonably appear in transliteration
+< [̀́̂̃̄̆̈̓̔͂̓̈́];
+|i < ͅ;
+
+# eliminate h after consonants, except p
+< [bcdfghjklmnqrstvwxz] { h+;
+
+# completeness mappings (not covered by the cited reference)
+|p<b;
+|k<c;
+|w<f;
+|k<g;
+|k<h}[^au];
+|r<l;
+|w<v;
+|u<y;
+|ks<x;
+
+:: (NFD);
+:: (lower);
+:: ([[:Latin:][̀́̂̃̄̆̈̓̔͂̓̈́ͅ]]);

@@ -1,0 +1,127 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2001-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Georgian_Latin_BGN.txt
+# Generated from CLDR
+
+# Based on BGN/PCGN 1981 from
+# http://www.eki.ee/wgrs/rom2_ka.pdf
+
+# Georgian-Latin/BGN
+
+:: NFD (NFC);
+
+# titlecase digraphs
+Ⴙ}[:LowercaseLetter:]>Chʼ;
+Ⴚ}[:LowercaseLetter:]>Tsʼ;
+Ⴏ}[:LowercaseLetter:]>Zh;
+Ⴖ}[:LowercaseLetter:]>Gh;
+Ⴘ}[:LowercaseLetter:]>Sh;
+Ⴛ}[:LowercaseLetter:]>Dz;
+Ⴜ}[:LowercaseLetter:]>Ts;
+Ⴝ}[:LowercaseLetter:]>Ch;
+Ⴞ}[:LowercaseLetter:]>Kh;
+
+# non-BGN/PCGN
+Ⴡ}[:Ll:]>Ey;
+Ⴥ}[:Ll:]>Ow;
+
+# uppercase digraphs
+Ⴙ>CHʼ;
+Ⴚ>TSʼ;
+Ⴇ>Tʼ;
+Ⴏ>ZH;
+Ⴔ>Pʼ;
+Ⴕ>Kʼ;
+Ⴖ>GH;
+Ⴘ>SH;
+Ⴛ>DZ;
+Ⴜ>TS;
+Ⴝ>CH;
+Ⴞ>KH;
+# non-BGN/PCGN
+Ⴡ>EY;
+Ⴤ>Qʼ;
+Ⴥ>OW;
+Ⴀ>A;
+Ⴁ>B;
+Ⴂ>G;
+Ⴃ>D;
+Ⴄ>E;
+Ⴅ>V;
+Ⴆ>Z;
+Ⴈ>I;
+Ⴉ>K;
+Ⴊ>L;
+Ⴋ>M;
+Ⴌ>N;
+Ⴍ>O;
+Ⴎ>P;
+Ⴐ>R;
+Ⴑ>S;
+Ⴒ>T;
+Ⴓ>U;
+Ⴗ>Q;
+Ⴟ>J;
+Ⴠ>H;
+Ⴢ>Y;
+Ⴣ>W;
+
+# lowercase digraphs
+ჩ<>chʼ;
+ც<>tsʼ;
+თ<>tʼ;
+ჟ<>zh;
+ფ<>pʼ;
+ქ<>kʼ;
+ღ<>gh;
+შ<>sh;
+ძ<>dz;
+წ<>ts;
+ჭ<>ch;
+ხ<>kh;
+# non-BGN/PCGN
+ჱ<>ey;
+ჴ<>qʼ;
+ჵ<>ow;
+ა<>a;
+ბ<>b;
+გ<>g;
+დ<>d;
+ე<>e;
+ვ<>v;
+ზ<>z;
+ი<>i;
+კ<>k;
+ლ<>l;
+მ<>m;
+ნ<>n;
+ო<>o;
+პ<>p;
+რ<>r;
+ს<>s;
+ტ<>t;
+უ<>u;
+ყ<>q;
+ჯ<>j;
+ჰ<>h;
+
+# non-BGN/PCGN
+ჲ<>y;
+ჳ<>w;
+ჶ<>f;
+Ƿ>e;
+Ǹ>ʼ;
+
+# paragraph
+჻<>¶;
+
+# completeness mappings for latin
+კ<c;
+ხ<x;
+
+:: ([:LATIN:] lower);
+:: NFC (NFD);

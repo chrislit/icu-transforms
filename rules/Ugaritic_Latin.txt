@@ -1,0 +1,66 @@
+# ***************************************************************************
+# *
+# *  Copyright (C) 2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Ugaritic_Latin.txt
+# Generated from CLDR
+
+# Ugaritic-Latin
+
+:: [:Ugaritic:];
+:: (NFC);
+
+# completeness mappings (not based on standard)
+|k<c;
+|i<e;
+|w<f;
+|i<j;
+|a<o;
+|w<v;
+|k<x;
+
+# add glottal stop to vowels without glottal stop marking
+|ʾa<[^ʾ]{a;
+|ʾi<[^ʾ]{i;
+|ʾu<[^ʾ]{u;
+
+# letters with diacritics
+𐎏<>ḏ;
+𐎈<>ḥ;
+𐎃<>ḫ;
+𐎉<>ṭ;
+𐎑<>ẓ;
+𐎝<>s̀;
+𐎙<>ǵ;
+𐎕<>ṣ;
+𐎌<>š;
+𐎘<>ṯ;
+𐎀<>ʾa;
+𐎛<>ʾi;
+𐎜<>ʾu;
+
+# plain letters
+𐎁<>b;
+𐎂<>g;
+𐎄<>d;
+𐎅<>h;
+𐎆<>w;
+𐎇<>z;
+𐎊<>y;
+𐎋<>k;
+𐎍<>l;
+𐎎<>m;
+𐎐<>n;
+𐎒<>s;
+𐎓<>ʿ;
+𐎔<>p;
+𐎖<>q;
+𐎗<>r;
+𐎚<>t;
+𐎟<>\.;
+
+:: ([A-Z] lower);
+:: (NFD);
+:: ([[:Latin:][\.̮̣̱̌́̀ʾʿ]]);

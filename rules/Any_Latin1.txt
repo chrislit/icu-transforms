@@ -1,0 +1,20 @@
+﻿# ***************************************************************************
+# *
+# *  Copyright (C) 2001-2014
+# *  All Rights Reserved.
+# *
+# ***************************************************************************
+# File: Any_Latin1.txt
+# Generated from CLDR
+
+# Any-Latin-1
+
+# NFKD then NFC; then NFD all non-Latin-1 codepoints
+:: NFKC ();
+:: [^\u0000-\u00FF] NFD ();
+
+# remove non-spacing marks
+[:Mn:]>;
+
+# change characters outside of Latin-1 range to query
+[^\u0000-\u00FF]>'?';
